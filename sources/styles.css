@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+  }
+  .enterTxtBox {
+    border-radius: 6px;
+    border-color: black;
+    background-color: #f9f7fe;
+    font-size: 18px;
+    padding: 20px;
+    width: 50%;
+    border: none;
+    line-height: 1;
+  }
+  
+  .submitBtn {
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-left: 0;
+    font-size: 18px;
+    padding: 20px;
+    border: none;
+    line-height: 1;
+    color: #fff;
+  }
+  
+  .weather-details {
+    font-size: 16px;
+  }
+  
+  .weather-details strong {
+    color: blueviolet;
+    font-size: large;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  .city {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  p {
+    color: rgba(39, 33, 66, 0.4);
+  }
+  
+  .temperature {
+    font-size: 95px;
+    font-weight: 800;
+    margin: 0;
+    position: relative;
+    bottom: 130px;
+    left: 500px;
+  }
+  
+  .temperature .temperature-symbol {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+    bottom: 45px;
+    right: 30px;
+  }
+  
+  .temperature .temperature-icon {
+    position: relative;
+    left: 30px;
+    font-size: 40px;
+    bottom: 8px;
+  }
